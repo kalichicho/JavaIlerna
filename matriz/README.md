@@ -1,18 +1,30 @@
-## Getting Started
+# Matriz Aleatoria
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este pequeño proyecto genera una matriz de 2x3 con números aleatorios (0..2). Después de cada fila se muestra su suma en verde y, al final, aparecen las sumas de cada columna y el total general en rojo.
 
-## Folder Structure
+## Ejecución
 
-The workspace contains two folders by default, where:
+Compila y ejecuta desde esta misma carpeta:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```bash
+javac -d bin src/code/*.java
+java -cp bin code.Main
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+La salida se ve similar a la siguiente (aquí sin colores):
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```
+1 0 2 |3
+2 1 1 |4
+3 1 3 |7
+```
 
-## Dependency Management
+En la consola real, los valores después de la barra vertical se muestran coloreados para resaltar la información.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Estructura del código
+
+- **MatrizAleatoria**: contiene la lógica para rellenar la matriz y calcular sumas.
+- **Colores**: define códigos ANSI para imprimir en rojo y verde.
+- **Main**: crea un objeto de `MatrizAleatoria` y llama a `imprimirSumaMatriz()`.
+
+Con este ejercicio se practican arrays bidimensionales, bucles anidados y organización básica en clases de Java.
