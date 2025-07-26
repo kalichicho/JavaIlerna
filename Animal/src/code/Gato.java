@@ -1,5 +1,3 @@
-package code;
-
 public class Gato extends Animal{
 
     //constructo

@@ -1,5 +1,3 @@
-package code;
-
 public abstract class Animal {
 
     // Attributes
