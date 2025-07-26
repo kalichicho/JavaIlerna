@@ -9,6 +9,7 @@ Este repositorio contiene varios proyectos sencillos pensados para practicar con
 - **FigurasGeometricas**: jerarquía de clases para distintas figuras (`Cuadrado`, `Circulo`, `Triangulo`) que heredan de `FiguraGeometrica`. Cada figura implementa su propio cálculo de área.
 - **Libro**: solicita por consola varios datos de un libro, los almacena en una clase `Libro` con numerosos atributos y luego muestra la información introducida.
 - **Persona**: definición simple de la clase `Persona` con varios campos personales y métodos para presentar los datos y comprobar si la persona es mayor de edad.
+- **DetectorIsograma**: comprueba si una palabra es un isograma utilizando un `Set` para detectar letras repetidas.
 
 ## Cómo ejecutar
 
@@ -21,7 +22,3 @@ java -cp bin code.Main
 ```
 
 Los demás proyectos siguen un esquema similar.
-
-## Notas
-
-El ejercicio llamado *isograma* ha sido eliminado por estar incompleto.
