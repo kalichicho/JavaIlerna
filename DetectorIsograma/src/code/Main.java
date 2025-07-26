@@ -7,7 +7,7 @@ public class Main {
 
         // Instanciamos objeto
 
-        Isograma isoPalabra = new Isograma("perro");
+        Isograma isoPalabra = new Isograma("pero");
 
         // llamada al metodo
 
