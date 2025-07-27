@@ -19,8 +19,9 @@ public class Main {
         System.out.println();
 
         // añadimos datos
-        lista.add(0, 'a');
         lista.add(0, 'b');
+        lista.add(0, 'a');
+        
 
         // Bucle para mostrar datos
         for (int i = 0; i < lista.size(); i++) {
